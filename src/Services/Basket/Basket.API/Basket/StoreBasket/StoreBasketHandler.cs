@@ -20,8 +20,6 @@
         {
             ShoppingCart cart = command.Cart;
 
-            //TODO: store basket indatabase (user Marten upsert)
-            //TODO: update cache
             await repository.StoreBasket(command.Cart, cancellationToken);
 
             return new StoreBasketResult(command.Cart.Username);
