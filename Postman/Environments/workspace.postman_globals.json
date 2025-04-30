@@ -1,0 +1,27 @@
+{
+	"id": "629017ba-22fc-4831-8b7c-c126ac89955a",
+	"values": [
+		{
+			"key": "yarp_catalog",
+			"value": "catalog-service",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "yarp_basket",
+			"value": "basket-service",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "yarp_ordering",
+			"value": "ordering-service",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-04-30T15:14:36.033Z",
+	"_postman_exported_using": "Postman/11.43.2"
+}
